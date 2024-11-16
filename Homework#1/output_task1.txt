@@ -1,0 +1,6 @@
+First way of getting the IP
+93.183.73.90
+
+second way of getting the ip
+Interface: enp0s5
+IP Address: 93.183.73.90
