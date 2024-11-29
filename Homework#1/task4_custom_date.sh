@@ -1,8 +1,7 @@
 #!/usr/bin/bash
 
-# create the pipe
-# mkfifo my_pipe
+format="%Y-%m-%d %H:%M:%S"
+echo "Custom Format: $format"
 
-# send the format using the pipe
-echo "Custom Format: %Y-%m-%d %H:%M:%S" | date +"$(cat -)"
-
+echo "Date in Unix time with the custom format and the format is served via pipe :"
+echo $format | date +"$(cat -) (Unix Time: %s)"
