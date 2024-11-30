@@ -1,0 +1,32 @@
+Contents of the file /etc/ryslog.d/ssh.conf
+if $PROGRAMNAME == 'sshd' then /var/log/ssh.log
+& stop
+
+contents of /etc/logrotate.d/ssh
+/var/log/ssh.log {
+    daily
+    rotate 10
+    size 1M
+    compress
+    missingok
+    notifempty
+    create 640 root adm
+    postrotate
+        /bin/systemctl reload rsyslog.service > /dev/null 2>&1 || true
+    endscript
+}
+contents of /var/log/ssh.log
+Nov 30 06:53:18 slonit-server sshd[7491]: Connection closed by authenticating user root 127.0.0.1 port 50320 [preauth]
+Nov 30 06:54:03 slonit-server sshd[7497]: Connection closed by authenticating user root 127.0.0.1 port 47038 [preauth]
+Nov 30 06:54:07 slonit-server sshd[7502]: Connection closed by authenticating user root 127.0.0.1 port 47040 [preauth]
+Nov 30 06:54:12 slonit-server sshd[7507]: Connection closed by authenticating user root 127.0.0.1 port 56226 [preauth]
+Nov 30 06:54:37 slonit-server sshd[7511]: Accepted publickey for root from 130.195.219.28 port 63449 ssh2: RSA SHA256:m80w2tSX8a0ninFzOMMJfOyYHLa7vCxWVOk84YzPSqs
+Nov 30 06:54:37 slonit-server sshd[7511]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 30 06:54:39 slonit-server sshd[7515]: Received disconnect from 130.195.219.28 port 63449:11: disconnected by user
+Nov 30 06:54:39 slonit-server sshd[7515]: Disconnected from user root 130.195.219.28 port 63449
+Nov 30 06:54:39 slonit-server sshd[7511]: pam_unix(sshd:session): session closed for user root
+Nov 30 06:56:20 slonit-server sshd[7550]: Connection reset by 37.46.122.83 port 7052 [preauth]
+Nov 30 06:57:39 slonit-server sshd[7555]: Invalid user admin from 61.221.30.246 port 34802
+Nov 30 06:57:39 slonit-server sshd[7555]: Connection closed by invalid user admin 61.221.30.246 port 34802 [preauth]
+Nov 30 06:59:02 slonit-server sshd[7565]: Invalid user test from 115.246.49.99 port 43242
+Nov 30 06:59:03 slonit-server sshd[7565]: Connection closed by invalid user test 115.246.49.99 port 43242 [preauth]

@@ -1,0 +1,19 @@
+-- Logs begin at Fri 2024-11-29 17:06:06 UTC, end at Sat 2024-11-30 06:23:11 UTC. --
+Nov 29 17:06:11 slonit-server.local systemd[1]: Starting Login Service...
+Nov 29 17:06:11 slonit-server.local systemd-logind[624]: New seat seat0.
+Nov 29 17:06:11 slonit-server.local systemd-logind[624]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 29 17:06:11 slonit-server.local systemd-logind[624]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Nov 29 17:06:11 slonit-server.local systemd[1]: Started Login Service.
+Nov 29 17:07:38 slonit-server.local systemd-logind[624]: New session 1 of user root.
+Nov 29 17:08:59 slonit-server.local systemd-logind[624]: Session 1 logged out. Waiting for processes to exit.
+Nov 29 17:08:59 slonit-server.local systemd-logind[624]: Removed session 1.
+Nov 30 05:17:55 slonit-server.local systemd-logind[624]: New session 3 of user root.
+Nov 30 05:18:49 slonit-server.local systemd-logind[624]: Session 3 logged out. Waiting for processes to exit.
+Nov 30 05:18:49 slonit-server.local systemd-logind[624]: Removed session 3.
+Nov 30 05:19:45 slonit-server.local systemd-logind[624]: New session 5 of user root.
+Nov 30 05:25:19 slonit-server.local systemd-logind[624]: Session 5 logged out. Waiting for processes to exit.
+Nov 30 05:25:19 slonit-server.local systemd-logind[624]: Removed session 5.
+Nov 30 05:26:54 slonit-server.local systemd-logind[624]: New session 7 of user root.
+Nov 30 05:27:20 slonit-server.local systemd-logind[624]: Session 7 logged out. Waiting for processes to exit.
+Nov 30 05:27:20 slonit-server.local systemd-logind[624]: Removed session 7.
+Nov 30 06:20:48 slonit-server.local systemd-logind[624]: New session 9 of user root.

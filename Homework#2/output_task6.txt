@@ -1,0 +1,272 @@
+-- Logs begin at Fri 2024-11-29 17:06:06 UTC, end at Sat 2024-11-30 06:25:26 UTC. --
+Nov 30 05:26:54 slonit-server.local sshd[6373]: Accepted publickey for root from 130.195.219.28 port 42941 ssh2: RSA SHA256:m80w2tSX8a0ninFzOMMJfOyYHLa7vCxWVOk84YzPSqs
+Nov 30 05:26:54 slonit-server.local systemd[1]: Created slice User Slice of UID 0.
+Nov 30 05:26:54 slonit-server.local systemd[1]: Starting User runtime directory /run/user/0...
+Nov 30 05:26:54 slonit-server.local systemd-logind[624]: New session 7 of user root.
+Nov 30 05:26:54 slonit-server.local systemd[1]: Started User runtime directory /run/user/0.
+Nov 30 05:26:54 slonit-server.local systemd[1]: Starting User Manager for UID 0...
+Nov 30 05:26:54 slonit-server.local systemd[6378]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Reached target Paths.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Reached target Timers.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Starting D-Bus User Message Bus Socket.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Listening on D-Bus User Message Bus Socket.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Reached target Sockets.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Reached target Basic System.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Reached target Default.
+Nov 30 05:26:54 slonit-server.local systemd[6378]: Startup finished in 45ms.
+Nov 30 05:26:54 slonit-server.local systemd[1]: Started User Manager for UID 0.
+Nov 30 05:26:54 slonit-server.local systemd[1]: Started Session 7 of user root.
+Nov 30 05:26:54 slonit-server.local sshd[6373]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 30 05:27:20 slonit-server.local sshd[6388]: Received disconnect from 130.195.219.28 port 42941:11: disconnected by user
+Nov 30 05:27:20 slonit-server.local sshd[6388]: Disconnected from user root 130.195.219.28 port 42941
+Nov 30 05:27:20 slonit-server.local sshd[6373]: pam_unix(sshd:session): session closed for user root
+Nov 30 05:27:20 slonit-server.local systemd[1]: session-7.scope: Succeeded.
+Nov 30 05:27:20 slonit-server.local systemd-logind[624]: Session 7 logged out. Waiting for processes to exit.
+Nov 30 05:27:20 slonit-server.local systemd-logind[624]: Removed session 7.
+Nov 30 05:27:30 slonit-server.local systemd[1]: Stopping User Manager for UID 0...
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Stopped target Default.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Stopped target Basic System.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Stopped target Timers.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Stopped target Paths.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Stopped target Sockets.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Closed D-Bus User Message Bus Socket.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Reached target Shutdown.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Started Exit the Session.
+Nov 30 05:27:30 slonit-server.local systemd[6378]: Reached target Exit the Session.
+Nov 30 05:27:30 slonit-server.local systemd[6382]: pam_unix(systemd-user:session): session closed for user root
+Nov 30 05:27:30 slonit-server.local systemd[1]: user@0.service: Succeeded.
+Nov 30 05:27:30 slonit-server.local systemd[1]: Stopped User Manager for UID 0.
+Nov 30 05:27:30 slonit-server.local systemd[1]: Stopping User runtime directory /run/user/0...
+Nov 30 05:27:30 slonit-server.local systemd[1]: run-user-0.mount: Succeeded.
+Nov 30 05:27:30 slonit-server.local systemd[1]: user-runtime-dir@0.service: Succeeded.
+Nov 30 05:27:30 slonit-server.local systemd[1]: Stopped User runtime directory /run/user/0.
+Nov 30 05:27:30 slonit-server.local systemd[1]: Removed slice User Slice of UID 0.
+Nov 30 05:28:06 slonit-server.local sshd[6428]: Invalid user supervisor from 103.80.68.66 port 33774
+Nov 30 05:28:07 slonit-server.local sshd[6428]: Connection closed by invalid user supervisor 103.80.68.66 port 33774 [preauth]
+Nov 30 05:35:37 slonit-server.local sshd[6431]: error: kex_exchange_identification: Connection closed by remote host
+Nov 30 05:36:29 slonit-server.local sshd[6433]: Connection closed by 121.202.207.60 port 19772 [preauth]
+Nov 30 05:36:31 slonit-server.local sshd[6436]: Invalid user admin from 65.20.216.79 port 49313
+Nov 30 05:36:31 slonit-server.local sshd[6436]: Connection closed by invalid user admin 65.20.216.79 port 49313 [preauth]
+Nov 30 05:44:37 slonit-server.local sshd[6439]: Invalid user supervisor from 87.227.6.3 port 35830
+Nov 30 05:44:37 slonit-server.local sshd[6439]: Connection closed by invalid user supervisor 87.227.6.3 port 35830 [preauth]
+Nov 30 05:47:36 slonit-server.local sshd[6443]: Invalid user default from 103.145.27.1 port 34218
+Nov 30 05:47:36 slonit-server.local sshd[6443]: Connection closed by invalid user default 103.145.27.1 port 34218 [preauth]
+Nov 30 06:01:01 slonit-server.local CROND[6449]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 30 06:01:01 slonit-server.local run-parts[6452]: (/etc/cron.hourly) starting 0anacron
+Nov 30 06:01:01 slonit-server.local run-parts[6458]: (/etc/cron.hourly) finished 0anacron
+Nov 30 06:01:13 slonit-server.local sshd[6459]: Connection closed by authenticating user operator 211.105.223.49 port 35680 [preauth]
+Nov 30 06:03:28 slonit-server.local sshd[6462]: Invalid user guest from 124.93.12.184 port 23071
+Nov 30 06:03:28 slonit-server.local sshd[6462]: Connection closed by invalid user guest 124.93.12.184 port 23071 [preauth]
+Nov 30 06:04:38 slonit-server.local sshd[6466]: Invalid user cesar from 79.137.206.88 port 59832
+Nov 30 06:04:38 slonit-server.local sshd[6466]: Connection closed by invalid user cesar 79.137.206.88 port 59832 [preauth]
+Nov 30 06:04:50 slonit-server.local sshd[6469]: Connection closed by authenticating user root 79.137.206.88 port 39524 [preauth]
+Nov 30 06:04:50 slonit-server.local systemd[1]: Starting dnf makecache...
+Nov 30 06:04:51 slonit-server.local dnf[6472]: Oracle Linux 8 BaseOS Latest (x86_64)            38 kB/s | 4.3 kB     00:00
+Nov 30 06:04:52 slonit-server.local dnf[6472]: Oracle Linux 8 Application Stream (x86_64)       43 kB/s | 4.5 kB     00:00
+Nov 30 06:04:52 slonit-server.local dnf[6472]: Latest Unbreakable Enterprise Kernel Release 6   33 kB/s | 3.5 kB     00:00
+Nov 30 06:04:55 slonit-server.local dnf[6472]: Metadata cache created.
+Nov 30 06:04:55 slonit-server.local systemd[1]: dnf-makecache.service: Succeeded.
+Nov 30 06:04:55 slonit-server.local systemd[1]: Started dnf makecache.
+Nov 30 06:05:03 slonit-server.local sshd[6478]: Invalid user huawei from 79.137.206.88 port 57670
+Nov 30 06:05:03 slonit-server.local sshd[6478]: Connection closed by invalid user huawei 79.137.206.88 port 57670 [preauth]
+Nov 30 06:05:16 slonit-server.local sshd[6481]: Connection closed by authenticating user root 79.137.206.88 port 41538 [preauth]
+Nov 30 06:05:28 slonit-server.local sshd[6484]: Invalid user carey from 79.137.206.88 port 45854
+Nov 30 06:05:28 slonit-server.local sshd[6484]: Connection closed by invalid user carey 79.137.206.88 port 45854 [preauth]
+Nov 30 06:05:40 slonit-server.local sshd[6487]: Invalid user student6 from 79.137.206.88 port 54876
+Nov 30 06:05:40 slonit-server.local sshd[6487]: Connection closed by invalid user student6 79.137.206.88 port 54876 [preauth]
+Nov 30 06:05:53 slonit-server.local sshd[6490]: Connection closed by authenticating user root 79.137.206.88 port 60812 [preauth]
+Nov 30 06:06:05 slonit-server.local sshd[6493]: Connection closed by authenticating user root 79.137.206.88 port 48730 [preauth]
+Nov 30 06:06:17 slonit-server.local sshd[6496]: Invalid user koala from 79.137.206.88 port 42624
+Nov 30 06:06:17 slonit-server.local sshd[6496]: Connection closed by invalid user koala 79.137.206.88 port 42624 [preauth]
+Nov 30 06:06:29 slonit-server.local sshd[6499]: Connection closed by authenticating user root 79.137.206.88 port 43382 [preauth]
+Nov 30 06:06:42 slonit-server.local sshd[6502]: Invalid user monitor from 79.137.206.88 port 39838
+Nov 30 06:06:42 slonit-server.local sshd[6502]: Connection closed by invalid user monitor 79.137.206.88 port 39838 [preauth]
+Nov 30 06:06:54 slonit-server.local sshd[6505]: Connection closed by authenticating user root 79.137.206.88 port 57488 [preauth]
+Nov 30 06:07:06 slonit-server.local sshd[6508]: Connection closed by authenticating user root 79.137.206.88 port 43910 [preauth]
+Nov 30 06:07:18 slonit-server.local sshd[6511]: Connection closed by authenticating user root 79.137.206.88 port 54798 [preauth]
+Nov 30 06:07:31 slonit-server.local sshd[6514]: Connection closed by authenticating user root 79.137.206.88 port 49084 [preauth]
+Nov 30 06:07:43 slonit-server.local sshd[6517]: Connection closed by authenticating user root 79.137.206.88 port 35100 [preauth]
+Nov 30 06:07:55 slonit-server.local sshd[6520]: Connection closed by authenticating user root 79.137.206.88 port 38028 [preauth]
+Nov 30 06:08:07 slonit-server.local sshd[6523]: Connection closed by authenticating user root 79.137.206.88 port 45976 [preauth]
+Nov 30 06:08:20 slonit-server.local sshd[6526]: Connection closed by authenticating user root 79.137.206.88 port 57068 [preauth]
+Nov 30 06:08:32 slonit-server.local sshd[6529]: Connection closed by authenticating user root 79.137.206.88 port 60188 [preauth]
+Nov 30 06:08:44 slonit-server.local sshd[6532]: Invalid user postgres from 79.137.206.88 port 40018
+Nov 30 06:08:44 slonit-server.local sshd[6532]: Connection closed by invalid user postgres 79.137.206.88 port 40018 [preauth]
+Nov 30 06:08:51 slonit-server.local sshd[6535]: Connection closed by authenticating user operator 159.89.99.112 port 39436 [preauth]
+Nov 30 06:08:56 slonit-server.local sshd[6538]: Invalid user ftpuser from 79.137.206.88 port 54656
+Nov 30 06:08:56 slonit-server.local sshd[6538]: Connection closed by invalid user ftpuser 79.137.206.88 port 54656 [preauth]
+Nov 30 06:09:09 slonit-server.local sshd[6541]: Invalid user emcali from 79.137.206.88 port 35260
+Nov 30 06:09:09 slonit-server.local sshd[6541]: Connection closed by invalid user emcali 79.137.206.88 port 35260 [preauth]
+Nov 30 06:09:21 slonit-server.local sshd[6544]: Invalid user user4 from 79.137.206.88 port 53682
+Nov 30 06:09:21 slonit-server.local sshd[6544]: Connection closed by invalid user user4 79.137.206.88 port 53682 [preauth]
+Nov 30 06:09:52 slonit-server.local sshd[6547]: Connection closed by authenticating user root 79.137.206.88 port 49106 [preauth]
+Nov 30 06:10:07 slonit-server.local sshd[6551]: Connection closed by authenticating user root 79.137.206.88 port 33392 [preauth]
+Nov 30 06:10:20 slonit-server.local sshd[6554]: Connection closed by authenticating user root 79.137.206.88 port 47312 [preauth]
+Nov 30 06:10:33 slonit-server.local sshd[6557]: Invalid user mysql from 79.137.206.88 port 56216
+Nov 30 06:10:33 slonit-server.local sshd[6557]: Connection closed by invalid user mysql 79.137.206.88 port 56216 [preauth]
+Nov 30 06:10:45 slonit-server.local sshd[6560]: Connection closed by authenticating user root 79.137.206.88 port 53912 [preauth]
+Nov 30 06:10:57 slonit-server.local sshd[6563]: Connection closed by authenticating user root 79.137.206.88 port 49842 [preauth]
+Nov 30 06:11:11 slonit-server.local sshd[6566]: Invalid user support from 79.137.206.88 port 37606
+Nov 30 06:11:11 slonit-server.local sshd[6566]: Connection closed by invalid user support 79.137.206.88 port 37606 [preauth]
+Nov 30 06:11:23 slonit-server.local sshd[6569]: Invalid user jessica from 79.137.206.88 port 48818
+Nov 30 06:11:23 slonit-server.local sshd[6569]: Connection closed by invalid user jessica 79.137.206.88 port 48818 [preauth]
+Nov 30 06:11:36 slonit-server.local sshd[6572]: Connection closed by authenticating user root 79.137.206.88 port 38814 [preauth]
+Nov 30 06:11:48 slonit-server.local sshd[6575]: Invalid user user07 from 79.137.206.88 port 54116
+Nov 30 06:11:48 slonit-server.local sshd[6575]: Connection closed by invalid user user07 79.137.206.88 port 54116 [preauth]
+Nov 30 06:12:02 slonit-server.local sshd[6578]: Connection closed by authenticating user root 79.137.206.88 port 42482 [preauth]
+Nov 30 06:12:14 slonit-server.local sshd[6581]: Connection closed by authenticating user root 79.137.206.88 port 47356 [preauth]
+Nov 30 06:12:26 slonit-server.local sshd[6584]: Invalid user deploy from 79.137.206.88 port 44280
+Nov 30 06:12:26 slonit-server.local sshd[6584]: Connection closed by invalid user deploy 79.137.206.88 port 44280 [preauth]
+Nov 30 06:12:38 slonit-server.local sshd[6587]: Invalid user ai from 79.137.206.88 port 33996
+Nov 30 06:12:38 slonit-server.local sshd[6587]: Connection closed by invalid user ai 79.137.206.88 port 33996 [preauth]
+Nov 30 06:12:51 slonit-server.local sshd[6590]: Invalid user user from 79.137.206.88 port 46702
+Nov 30 06:12:51 slonit-server.local sshd[6590]: Connection closed by invalid user user 79.137.206.88 port 46702 [preauth]
+Nov 30 06:13:03 slonit-server.local sshd[6593]: Invalid user com from 79.137.206.88 port 49378
+Nov 30 06:13:03 slonit-server.local sshd[6593]: Connection closed by invalid user com 79.137.206.88 port 49378 [preauth]
+Nov 30 06:13:15 slonit-server.local sshd[6596]: Connection closed by authenticating user root 79.137.206.88 port 58048 [preauth]
+Nov 30 06:13:27 slonit-server.local sshd[6599]: Invalid user steve from 79.137.206.88 port 54716
+Nov 30 06:13:27 slonit-server.local sshd[6599]: Connection closed by invalid user steve 79.137.206.88 port 54716 [preauth]
+Nov 30 06:13:41 slonit-server.local sshd[6602]: Invalid user ubuntu from 79.137.206.88 port 34704
+Nov 30 06:13:41 slonit-server.local sshd[6602]: Connection closed by invalid user ubuntu 79.137.206.88 port 34704 [preauth]
+Nov 30 06:14:00 slonit-server.local sshd[6605]: Connection closed by authenticating user root 79.137.206.88 port 45530 [preauth]
+Nov 30 06:14:12 slonit-server.local sshd[6608]: Invalid user username from 79.137.206.88 port 49566
+Nov 30 06:14:12 slonit-server.local sshd[6608]: Connection closed by invalid user username 79.137.206.88 port 49566 [preauth]
+Nov 30 06:14:24 slonit-server.local sshd[6611]: Invalid user client from 79.137.206.88 port 47010
+Nov 30 06:14:24 slonit-server.local sshd[6611]: Connection closed by invalid user client 79.137.206.88 port 47010 [preauth]
+Nov 30 06:14:37 slonit-server.local sshd[6614]: Invalid user wkiconsole from 79.137.206.88 port 34620
+Nov 30 06:14:37 slonit-server.local sshd[6614]: Connection closed by invalid user wkiconsole 79.137.206.88 port 34620 [preauth]
+Nov 30 06:14:49 slonit-server.local sshd[6617]: Connection closed by authenticating user root 79.137.206.88 port 58242 [preauth]
+Nov 30 06:14:54 slonit-server.local sshd[6620]: Connection closed by authenticating user operator 206.252.194.42 port 40640 [preauth]
+Nov 30 06:15:01 slonit-server.local sshd[6623]: Invalid user www1 from 79.137.206.88 port 45818
+Nov 30 06:15:01 slonit-server.local sshd[6623]: Connection closed by invalid user www1 79.137.206.88 port 45818 [preauth]
+Nov 30 06:15:12 slonit-server.local sshd[6626]: error: kex_exchange_identification: banner line contains invalid characters
+Nov 30 06:15:13 slonit-server.local sshd[6628]: Connection closed by authenticating user root 79.137.206.88 port 42796 [preauth]
+Nov 30 06:15:26 slonit-server.local sshd[6631]: Connection closed by authenticating user root 79.137.206.88 port 35098 [preauth]
+Nov 30 06:15:38 slonit-server.local sshd[6635]: Invalid user dolphinscheduler from 79.137.206.88 port 55794
+Nov 30 06:15:38 slonit-server.local sshd[6635]: Connection closed by invalid user dolphinscheduler 79.137.206.88 port 55794 [preauth]
+Nov 30 06:15:54 slonit-server.local sshd[6638]: Invalid user sonar from 79.137.206.88 port 36610
+Nov 30 06:15:54 slonit-server.local sshd[6638]: Connection closed by invalid user sonar 79.137.206.88 port 36610 [preauth]
+Nov 30 06:16:10 slonit-server.local sshd[6641]: Invalid user elk from 79.137.206.88 port 58488
+Nov 30 06:16:10 slonit-server.local sshd[6641]: Connection closed by invalid user elk 79.137.206.88 port 58488 [preauth]
+Nov 30 06:16:22 slonit-server.local sshd[6644]: Connection closed by authenticating user root 79.137.206.88 port 48572 [preauth]
+Nov 30 06:16:35 slonit-server.local sshd[6649]: Connection closed by authenticating user root 79.137.206.88 port 37368 [preauth]
+Nov 30 06:16:43 slonit-server.local sshd[6652]: error: kex_exchange_identification: read: Connection reset by peer
+Nov 30 06:16:47 slonit-server.local sshd[6654]: Invalid user cxc from 79.137.206.88 port 41080
+Nov 30 06:16:47 slonit-server.local sshd[6654]: Connection closed by invalid user cxc 79.137.206.88 port 41080 [preauth]
+Nov 30 06:16:59 slonit-server.local sshd[6657]: Invalid user da from 79.137.206.88 port 59954
+Nov 30 06:17:00 slonit-server.local sshd[6657]: Connection closed by invalid user da 79.137.206.88 port 59954 [preauth]
+Nov 30 06:17:12 slonit-server.local sshd[6660]: Invalid user sinusbot3 from 79.137.206.88 port 39230
+Nov 30 06:17:12 slonit-server.local sshd[6660]: Connection closed by invalid user sinusbot3 79.137.206.88 port 39230 [preauth]
+Nov 30 06:17:25 slonit-server.local sshd[6663]: Connection closed by authenticating user root 79.137.206.88 port 47688 [preauth]
+Nov 30 06:17:37 slonit-server.local sshd[6666]: Connection closed by authenticating user root 79.137.206.88 port 39376 [preauth]
+Nov 30 06:17:44 slonit-server.local sshd[6669]: Invalid user supervisor from 220.246.33.79 port 55829
+Nov 30 06:17:46 slonit-server.local sshd[6669]: Connection closed by invalid user supervisor 220.246.33.79 port 55829 [preauth]
+Nov 30 06:17:53 slonit-server.local sshd[6672]: Connection closed by authenticating user root 79.137.206.88 port 42550 [preauth]
+Nov 30 06:18:10 slonit-server.local sshd[6675]: Invalid user db2as from 79.137.206.88 port 53004
+Nov 30 06:18:10 slonit-server.local sshd[6675]: Connection closed by invalid user db2as 79.137.206.88 port 53004 [preauth]
+Nov 30 06:18:22 slonit-server.local sshd[6678]: Invalid user flink from 79.137.206.88 port 36926
+Nov 30 06:18:22 slonit-server.local sshd[6678]: Connection closed by invalid user flink 79.137.206.88 port 36926 [preauth]
+Nov 30 06:18:34 slonit-server.local sshd[6681]: Invalid user teste from 79.137.206.88 port 42546
+Nov 30 06:18:34 slonit-server.local sshd[6681]: Connection closed by invalid user teste 79.137.206.88 port 42546 [preauth]
+Nov 30 06:18:46 slonit-server.local sshd[6684]: Connection closed by authenticating user root 79.137.206.88 port 52198 [preauth]
+Nov 30 06:18:59 slonit-server.local sshd[6687]: Connection closed by authenticating user root 79.137.206.88 port 48242 [preauth]
+Nov 30 06:19:11 slonit-server.local sshd[6690]: Connection closed by authenticating user root 79.137.206.88 port 51132 [preauth]
+Nov 30 06:19:23 slonit-server.local sshd[6693]: Invalid user web from 79.137.206.88 port 46510
+Nov 30 06:19:23 slonit-server.local sshd[6693]: Connection closed by invalid user web 79.137.206.88 port 46510 [preauth]
+Nov 30 06:19:36 slonit-server.local sshd[6696]: Invalid user access from 79.137.206.88 port 47804
+Nov 30 06:19:36 slonit-server.local sshd[6696]: Connection closed by invalid user access 79.137.206.88 port 47804 [preauth]
+Nov 30 06:19:49 slonit-server.local sshd[6699]: Invalid user vsftp from 79.137.206.88 port 52334
+Nov 30 06:19:49 slonit-server.local sshd[6699]: Connection closed by invalid user vsftp 79.137.206.88 port 52334 [preauth]
+Nov 30 06:20:16 slonit-server.local sshd[6702]: Invalid user test01 from 79.137.206.88 port 50916
+Nov 30 06:20:16 slonit-server.local sshd[6702]: Connection closed by invalid user test01 79.137.206.88 port 50916 [preauth]
+Nov 30 06:20:29 slonit-server.local sshd[6705]: Connection closed by authenticating user root 79.137.206.88 port 40270 [preauth]
+Nov 30 06:20:41 slonit-server.local sshd[6708]: Connection closed by authenticating user root 79.137.206.88 port 47822 [preauth]
+Nov 30 06:20:48 slonit-server.local sshd[6711]: Accepted publickey for root from 130.195.219.28 port 62819 ssh2: RSA SHA256:m80w2tSX8a0ninFzOMMJfOyYHLa7vCxWVOk84YzPSqs
+Nov 30 06:20:48 slonit-server.local systemd[1]: Created slice User Slice of UID 0.
+Nov 30 06:20:48 slonit-server.local systemd[1]: Starting User runtime directory /run/user/0...
+Nov 30 06:20:48 slonit-server.local systemd-logind[624]: New session 9 of user root.
+Nov 30 06:20:48 slonit-server.local systemd[1]: Started User runtime directory /run/user/0.
+Nov 30 06:20:48 slonit-server.local systemd[1]: Starting User Manager for UID 0...
+Nov 30 06:20:48 slonit-server.local systemd[6716]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Starting D-Bus User Message Bus Socket.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Reached target Paths.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Reached target Timers.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Listening on D-Bus User Message Bus Socket.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Reached target Sockets.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Reached target Basic System.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Reached target Default.
+Nov 30 06:20:48 slonit-server.local systemd[6716]: Startup finished in 48ms.
+Nov 30 06:20:48 slonit-server.local systemd[1]: Started User Manager for UID 0.
+Nov 30 06:20:48 slonit-server.local systemd[1]: Started Session 9 of user root.
+Nov 30 06:20:48 slonit-server.local sshd[6711]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 30 06:20:53 slonit-server.local sshd[6755]: Invalid user dom from 79.137.206.88 port 37210
+Nov 30 06:20:53 slonit-server.local sshd[6755]: Connection closed by invalid user dom 79.137.206.88 port 37210 [preauth]
+Nov 30 06:21:05 slonit-server.local sshd[6761]: Connection closed by authenticating user root 79.137.206.88 port 56934 [preauth]
+Nov 30 06:21:17 slonit-server.local sshd[6766]: Invalid user masc from 79.137.206.88 port 60650
+Nov 30 06:21:18 slonit-server.local sshd[6766]: Connection closed by invalid user masc 79.137.206.88 port 60650 [preauth]
+Nov 30 06:21:30 slonit-server.local sshd[6784]: Connection closed by authenticating user root 79.137.206.88 port 33014 [preauth]
+Nov 30 06:21:42 slonit-server.local sshd[6789]: Connection closed by authenticating user root 79.137.206.88 port 38950 [preauth]
+Nov 30 06:21:54 slonit-server.local sshd[6794]: Invalid user teradata from 79.137.206.88 port 46700
+Nov 30 06:21:54 slonit-server.local sshd[6794]: Connection closed by invalid user teradata 79.137.206.88 port 46700 [preauth]
+Nov 30 06:22:07 slonit-server.local sshd[6799]: Connection closed by authenticating user root 79.137.206.88 port 36166 [preauth]
+Nov 30 06:22:20 slonit-server.local sshd[6806]: Connection closed by authenticating user root 79.137.206.88 port 54658 [preauth]
+Nov 30 06:22:32 slonit-server.local sshd[6811]: Invalid user testing from 79.137.206.88 port 50582
+Nov 30 06:22:32 slonit-server.local sshd[6811]: Connection closed by invalid user testing 79.137.206.88 port 50582 [preauth]
+Nov 30 06:22:45 slonit-server.local sshd[6816]: Invalid user fsx from 79.137.206.88 port 36372
+Nov 30 06:22:45 slonit-server.local sshd[6816]: Connection closed by invalid user fsx 79.137.206.88 port 36372 [preauth]
+Nov 30 06:22:57 slonit-server.local sshd[6819]: Invalid user xdd from 79.137.206.88 port 46830
+Nov 30 06:22:57 slonit-server.local sshd[6819]: Connection closed by invalid user xdd 79.137.206.88 port 46830 [preauth]
+Nov 30 06:23:11 slonit-server.local sshd[6825]: Invalid user weblogic from 79.137.206.88 port 38836
+Nov 30 06:23:11 slonit-server.local sshd[6825]: Connection closed by invalid user weblogic 79.137.206.88 port 38836 [preauth]
+Nov 30 06:23:23 slonit-server.local sshd[6830]: Connection closed by authenticating user root 79.137.206.88 port 40744 [preauth]
+Nov 30 06:23:33 slonit-server.local sudo[6834]:     root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/echo *.info    /var/log/my.log
+Nov 30 06:23:33 slonit-server.local sudo[6834]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 30 06:23:33 slonit-server.local sudo[6834]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 30 06:23:33 slonit-server.local sudo[6834]: pam_unix(sudo:session): session closed for user root
+Nov 30 06:23:33 slonit-server.local sudo[6837]:     root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/systemctl restart rsyslog
+Nov 30 06:23:33 slonit-server.local sudo[6837]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 30 06:23:33 slonit-server.local sudo[6837]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 30 06:23:33 slonit-server.local systemd[1]: Stopping System Logging Service...
+Nov 30 06:23:33 slonit-server.local rsyslogd[900]: [origin software="rsyslogd" swVersion="8.2102.0-7.el8_6.1" x-pid="900" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 30 06:23:33 slonit-server.local systemd[1]: rsyslog.service: Succeeded.
+Nov 30 06:23:33 slonit-server.local systemd[1]: Stopped System Logging Service.
+Nov 30 06:23:34 slonit-server.local systemd[1]: Starting System Logging Service...
+Nov 30 06:23:34 slonit-server.local rsyslogd[6842]: [origin software="rsyslogd" swVersion="8.2102.0-7.el8_6.1" x-pid="6842" x-info="https://www.rsyslog.com"] start
+Nov 30 06:23:34 slonit-server.local systemd[1]: Started System Logging Service.
+Nov 30 06:23:34 slonit-server.local sudo[6837]: pam_unix(sudo:session): session closed for user root
+Nov 30 06:23:34 slonit-server.local rsyslogd[6842]: imjournal: journal files changed, reloading...  [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/0 ]
+Nov 30 06:23:35 slonit-server.local sshd[6847]: Connection closed by authenticating user root 79.137.206.88 port 47396 [preauth]
+Nov 30 06:23:47 slonit-server.local sshd[6855]: Invalid user sc from 79.137.206.88 port 47150
+Nov 30 06:23:47 slonit-server.local sshd[6855]: Connection closed by invalid user sc 79.137.206.88 port 47150 [preauth]
+Nov 30 06:24:01 slonit-server.local sshd[6858]: Connection closed by authenticating user root 79.137.206.88 port 43226 [preauth]
+Nov 30 06:24:13 slonit-server.local sshd[6861]: Invalid user nova from 79.137.206.88 port 58618
+Nov 30 06:24:13 slonit-server.local sshd[6861]: Connection closed by invalid user nova 79.137.206.88 port 58618 [preauth]
+Nov 30 06:24:25 slonit-server.local sshd[6864]: Connection closed by authenticating user root 79.137.206.88 port 33202 [preauth]
+Nov 30 06:24:37 slonit-server.local sudo[6871]:     root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/cat
+Nov 30 06:24:37 slonit-server.local sudo[6871]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 30 06:24:37 slonit-server.local sudo[6871]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 30 06:24:37 slonit-server.local sudo[6871]: pam_unix(sudo:session): session closed for user root
+Nov 30 06:24:37 slonit-server.local sudo[6874]:     root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/systemctl restart rsyslog
+Nov 30 06:24:37 slonit-server.local sudo[6874]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 30 06:24:37 slonit-server.local sudo[6874]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 30 06:24:37 slonit-server.local systemd[1]: Stopping System Logging Service...
+Nov 30 06:24:37 slonit-server.local sshd[6867]: Connection closed by authenticating user root 79.137.206.88 port 51282 [preauth]
+Nov 30 06:24:38 slonit-server.local rsyslogd[6842]: [origin software="rsyslogd" swVersion="8.2102.0-7.el8_6.1" x-pid="6842" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Nov 30 06:24:38 slonit-server.local systemd[1]: rsyslog.service: Succeeded.
+Nov 30 06:24:38 slonit-server.local systemd[1]: Stopped System Logging Service.
+Nov 30 06:24:38 slonit-server.local systemd[1]: Starting System Logging Service...
+Nov 30 06:24:38 slonit-server.local rsyslogd[6879]: error during parsing file /etc/rsyslog.d/ssh.conf, on or before line 1: syntax error on token '==' [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/2207 ]
+Nov 30 06:24:38 slonit-server.local rsyslogd[6879]: could not interpret master config file '/etc/rsyslog.conf'. [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/2207 ]
+Nov 30 06:24:38 slonit-server.local rsyslogd[6879]: [origin software="rsyslogd" swVersion="8.2102.0-7.el8_6.1" x-pid="6879" x-info="https://www.rsyslog.com"] start
+Nov 30 06:24:38 slonit-server.local systemd[1]: Started System Logging Service.
+Nov 30 06:24:38 slonit-server.local sudo[6874]: pam_unix(sudo:session): session closed for user root
+Nov 30 06:24:38 slonit-server.local rsyslogd[6879]: imjournal: journal files changed, reloading...  [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/0 ]
+Nov 30 06:24:38 slonit-server.local sudo[6882]:     root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/cat
+Nov 30 06:24:38 slonit-server.local sudo[6882]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 30 06:24:38 slonit-server.local sudo[6882]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 30 06:24:38 slonit-server.local sudo[6882]: pam_unix(sudo:session): session closed for user root
+Nov 30 06:24:48 slonit-server.local sshd[6889]: error: kex_exchange_identification: read: Connection reset by peer
+Nov 30 06:24:50 slonit-server.local sshd[6891]: Connection closed by authenticating user root 79.137.206.88 port 53202 [preauth]
+Nov 30 06:25:02 slonit-server.local sshd[6894]: Connection closed by authenticating user root 79.137.206.88 port 55294 [preauth]
+Nov 30 06:25:14 slonit-server.local sshd[6897]: Connection closed by authenticating user root 79.137.206.88 port 54182 [preauth]
+Nov 30 06:25:26 slonit-server.local sshd[6900]: Connection closed by authenticating user root 79.137.206.88 port 55628 [preauth]

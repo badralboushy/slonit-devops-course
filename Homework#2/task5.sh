@@ -3,7 +3,7 @@
 # configure rsyslog to send ssh logs to /var/log/ssh.log
 # & stop to prevent further processing of the log message. just to prevent dublicate log messages.
 sudo cat <<EOF > /etc/rsyslog.d/ssh.conf
-if $PROGRAMNAME == 'sshd' then /var/log/ssh.log
+if \$PROGRAMNAME == 'sshd' then /var/log/ssh.log
 & stop
 EOF
 

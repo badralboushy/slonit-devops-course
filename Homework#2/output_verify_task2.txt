@@ -1,0 +1,8 @@
+Nov 30 06:26:50 slonit-server root[6928]: Peace and goodwill to the envoys from Alpha Centauri
+Nov 30 06:27:13 slonit-server sudo[6935]:    root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/grep Peace and goodwill to the envoys from Alpha Centauri /var/log/syslog
+Nov 30 06:27:41 slonit-server sudo[6944]:    root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/grep Peace and goodwill to the envoys from Alpha Centauri /var/log/messages
+Nov 30 06:27:53 slonit-server sudo[6950]:    root : TTY=pts/0 ; PWD=/root/slonit-devops-course/Homework#2 ; USER=root ; COMMAND=/bin/grep Peace and good /var/log/messages
+Nov 30 06:31:26 slonit-server root[7129]: Peace and goodwill to the envoys from Alpha Centauri
+Nov 30 06:33:53 slonit-server root[7197]: Peace and goodwill to the envoys from Alpha Centauri
+Nov 30 06:39:29 slonit-server root[7301]: Peace and goodwill to the envoys from Alpha Centauri
+Nov 30 06:40:02 slonit-server root[7308]: Peace and goodwill to the envoys from Alpha Centauri

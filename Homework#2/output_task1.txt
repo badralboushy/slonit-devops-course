@@ -1,0 +1,9 @@
+root     pts/0        130.195.219.28   Sat Nov 30 06:20   still logged in
+root     pts/0        130.195.219.28   Sat Nov 30 05:26 - 05:27  (00:00)
+root     pts/0        130.195.219.28   Sat Nov 30 05:19 - 05:25  (00:05)
+root     pts/0        130.195.219.76   Sat Nov 30 05:17 - 05:18  (00:00)
+root     pts/0        130.195.219.44   Fri Nov 29 17:07 - 17:08  (00:01)
+reboot   system boot  5.4.17-2136.310. Fri Nov 29 17:06   still running
+root     pts/0        130.195.219.44   Fri Nov 29 03:42 - 03:52  (00:09)
+
+wtmp begins Wed Sep 21 08:11:39 2022
